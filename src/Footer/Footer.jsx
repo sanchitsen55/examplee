@@ -4,7 +4,7 @@ const Footer = () => {
     { title: "Education", items: ["Study in Australia", "Study in Canada", "Study in New Zealand", "Study in USA", "Study in UK"] },
     { title: "Migration", items: ["Employer Sponsored Visa", "Business Visa", "General Skilled Migration", "Skill Work Regional (Provisional)", "Partner Visa", "Parent Visa"] },
     { title: "Coaching & Offerings", items: ["PTE Online Coaching", "IELTS Coaching", "Get My Policy", "PTE Voucher - India", "Nursing Program"] },
-    { title: "Other Links", items: ["Privacy Policy", "Terms & Conditions", "Code of Conduct"] },
+    { title: "Other Links", items: ["Privacy Policy", "Terms & Conditions", "Code of Condut"] },
     { title: "", items: ["/"] },
   ];
 
