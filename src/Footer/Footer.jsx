@@ -4,7 +4,7 @@ const Footer = () => {
     { title: "Education", items: ["Study in Australia", "Study in Canada", "Study in New Zealand", "Study in USA", "Study in UK"] },
     { title: "Migration", items: ["Employer Sponsored Visa", "Business Visa", "General Skilled Migration", "Skill Work Regional (Provisional)", "Partner Visa", "Parent Visa"] },
     { title: "Coaching & Offerings", items: ["PTE Online Coaching", "IELTS Coaching", "Get My Policy", "PTE Voucher - India", "Nursing Program"] },
-    { title: "Other Links", items: ["Privacy Policy", "Terms & Conditions", "Code of Condut"] },
+    { title: "Other Links", items: ["Privacy Policy", "Terms & Conditions", "Code of Conduct"] },
     { title: "", items: ["/"] },
   ];
 
@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="row">
           {sections.map((section, index) => (
             <div key={index} className="col-12 col-md-4 col-lg-2 text-md-left mb-4">
-              {section.title && <h5 className="fw-bold mb-3">{section.title}</h5>}
+              {section.title && <h5 className="fw-bold mb-3">{section.title} </h5>}
               {section.items.map((item, idx) => (
                 item !== "/" ? (
                   <p key={idx} className="footer-link">{item}</p>
